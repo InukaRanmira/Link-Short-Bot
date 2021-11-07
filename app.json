@@ -1,0 +1,83 @@
+{
+
+    "name": "Google Translater",
+
+    "description": "Google Translater Bot SZ",
+
+    "logo": "https://telegra.ph/file/d317b62a823434ddde37b.png",
+
+    "keywords": [
+
+        "SZ",
+
+        "Google Translator"
+
+    ],
+
+    "repository": "https://github.com/InukaRanmira/SZ-Google_Translater",
+
+    "success_url": "https://telegram.dog/InukaRanmira",
+
+    "env": {
+
+        "API_ID": {
+
+            "description": "Your APP ID From my.telegram.org ",
+
+            "value": ""
+
+        },
+
+        "API_HASH": {
+
+            "description": "Your API Hash From my.telegram.org",
+
+            "value": ""
+
+        },
+
+        "TOKEN": {
+
+            "description": "Your Bot Token From @BotFather",
+
+            "value": ""
+
+        },
+
+        "ADMIN": {
+
+            "description":"Add Your User ID"
+
+        },
+
+        "DB_URL": {
+
+            "description": "Your Mongo DB URL Obtained From mongodb.com",
+
+            "value": ""
+
+        },
+
+        "DB_NAME":{ 
+
+               "description":"Your Mongo DB Database Name ",
+
+                "value": "my",
+
+                "required": false
+
+        }
+
+    },
+
+    "buildpacks": [
+
+        {
+
+            "url": "heroku/python"
+
+        }
+
+    ]
+
+}
