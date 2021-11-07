@@ -1,10 +1,10 @@
 {
 
-    "name": "Google Translater",
+    "name": "Link Shorter",
 
-    "description": "Google Translater Bot SZ",
+    "description": "Link Shorter Bot SZ",
 
-    "logo": "https://telegra.ph/file/d317b62a823434ddde37b.png",
+    "logo": "https://telegra.ph/file/280da730f31e8eb4ed5a6.jpg",
 
     "keywords": [
 
@@ -14,7 +14,7 @@
 
     ],
 
-    "repository": "https://github.com/InukaRanmira/SZ-Google_Translater",
+    "repository": "https://github.com/InukaRanmira/Link-Short-Bot",
 
     "success_url": "https://telegram.dog/InukaRanmira",
 
