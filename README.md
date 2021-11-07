@@ -29,9 +29,9 @@ Short link generator Bot
 
 ## Credits
 
-[Inuka Ranmira](https://github.com/InukaRanmira)
+[Inuka Ranmira](https://github.com/InukaRanmira) - Owner Dev<br>
+[Denuwan](https://github.com/Imdenuwan) - Create Force Subscribe
 
-<a href="https://github.com/InukaRanmira"><img src="https://telegra.ph/file/649e4231effb26e3c00f0.jpg" width="400"></a></p>
 
 
 
