@@ -17,12 +17,17 @@
             "description": "Your BITLY_TOKEN from https://bitly.is/accesstoken"
         
         }
+        
         "ADMIN": {
         "description": "Your Bot Token From @BotFather",
-        },
+        
+        }
+    
         "DB_Url": {
         "description": "Your Mongo DB URL Obtained From mongodb.com",
-        },
+    
+        }
+
         "DB_NAME":{ 
             "description":"Your Mongo DB Database Name ",
             "value": "my",
