@@ -22,7 +22,13 @@ app = Client("bitlybot" ,bot_token = TOKEN ,api_id = API_ID ,api_hash = API_HASH
 async def start(client,message):
   await message.reply_sticker(sticker = "CAACAgUAAxkBAAEDVKxhh6qgng7mU5fdxwZTyIEvi2_d7gAC1AQAAi4FOVSJf_SZU2UV7yIE")
   await message.reply_text(f"Hello {message .from_user.first_name}\nhello i am SZ short link genrator\n made by @InukaRanmira ", reply_to_message_id = message.message_id)
-  
+  reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("SZ Bots News 🙋‍♀️", url="https://t.me/szteambots")],
+
+           [InlineKeyboardButton("Bot Support 💬", url="https://t.me/slbotzone"),
+
+	       InlineKeyboardButton("Follow", url="https://github.com/InukaRanmira"),
+
+	       InlineKeyboardButton("Developer 👑",url = "https://t.me/InukaRanmira")]])
 @app.on_message(filters.private & filters.regex("http|https"))
 async def Bitly(client,message):
   URL = message.text
